@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  font-size: 1em;
+}
+
+p {
+  margin: 10px;
+}
+
+.input-form, .stack-display {
+  width: 50%;
+  height: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.input-form {
+  background-color: #462749;
+  color: #FFFCF9;
+}
+
+.stack-display {
+  background-color: #fff8ea;
+}
+
+.Queue {
+  align-content: center;
+  margin: 0px auto;
+}
+
+.queue-container {
+  max-height: 100vh;
+  padding-left: 6em;
+  margin: auto;
+  overflow-y: scroll;
+}
+
+.Queue button {
+  margin: 20px 10px;
+  background: #FFFCF9;
+  color: #2F323A;
+  border: 2px solid #2F323A;
+  position: absolute;
+  left: 15em;
+}
+
+.Queue button:hover {
+  background: #F1D9A7;
+  color: #2F323A;
+}
+
+.enqueue-button {
+  top: 45%;
+}
+
+.dequeue-button {
+  top: 50%;
+}
+
+.block {
+  background-color: #462749;
+  color: #FFFCF9;
+  width: 10em;
+  margin: 0px auto;
+  margin-bottom: -2px;
+  border: 2px solid #fff8ea;
+  padding: 10px;
+}
+
+.block-head {
+  font-size: 0.45em;
+  margin: 7px;
+}
+
+.block-body {
+  font-size: 0.35em;
+  margin-botom: 0px 10;
+}
